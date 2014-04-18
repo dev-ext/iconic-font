@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "css_prefix_text": "icon-",
+  "name": "iconic",
+  "css_prefix_text": "iconic-",
   "css_use_suffix": false,
   "hinting": true,
   "units_per_em": 1000,
@@ -221,6 +221,12 @@
       "css": "youtube-squared",
       "code": 59414,
       "src": "fontawesome"
+    },
+    {
+      "uid": "13b11ab72c6ae9c97ee12428e17f3a4e",
+      "css": "dot-2",
+      "code": 59429,
+      "src": "entypo"
     }
   ]
 }

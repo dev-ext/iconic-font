@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'iconic';
+  src: url('../font/iconic.eot?28912465');
+  src: url('../font/iconic.eot?28912465#iefix') format('embedded-opentype'),
+       url('../font/iconic.woff?28912465') format('woff'),
+       url('../font/iconic.ttf?28912465') format('truetype'),
+       url('../font/iconic.svg?28912465#iconic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'iconic';
+    src: url('../font/iconic.svg?28912465#iconic') format('svg');
+  }
+}
+*/
+ 
+ [class^="iconic-"]:before, [class*=" iconic-"]:before {
+  font-family: "iconic";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.iconic-search:before { content: '\e808'; } /* '' */
+.iconic-dot-2:before { content: '\e825'; } /* '' */
+.iconic-mail-alt:before { content: '\e806'; } /* '' */
+.iconic-users:before { content: '\e820'; } /* '' */
+.iconic-camera:before { content: '\e81f'; } /* '' */
+.iconic-ok:before { content: '\e809'; } /* '' */
+.iconic-cancel:before { content: '\e80a'; } /* '' */
+.iconic-attach:before { content: '\e801'; } /* '' */
+.iconic-tag:before { content: '\e80b'; } /* '' */
+.iconic-print:before { content: '\e823'; } /* '' */
+.iconic-location:before { content: '\e822'; } /* '' */
+.iconic-phone:before { content: '\e81d'; } /* '' */
+.iconic-menu:before { content: '\e800'; } /* '' */
+.iconic-left-open:before { content: '\e803'; } /* '' */
+.iconic-right-open:before { content: '\e802'; } /* '' */
+.iconic-angle-double-left:before { content: '\e804'; } /* '' */
+.iconic-angle-double-right:before { content: '\e805'; } /* '' */
+.iconic-down-big:before { content: '\e80f'; } /* '' */
+.iconic-mail:before { content: '\e807'; } /* '' */
+.iconic-right-big:before { content: '\e80d'; } /* '' */
+.iconic-up-big:before { content: '\e80e'; } /* '' */
+.iconic-credit-card:before { content: '\e821'; } /* '' */
+.iconic-facebook:before { content: '\e815'; } /* '' */
+.iconic-facebook-squared:before { content: '\e814'; } /* '' */
+.iconic-gplus-squared:before { content: '\e813'; } /* '' */
+.iconic-gplus:before { content: '\e81e'; } /* '' */
+.iconic-instagramm:before { content: '\e81c'; } /* '' */
+.iconic-linkedin-squared:before { content: '\e81b'; } /* '' */
+.iconic-linkedin:before { content: '\e81a'; } /* '' */
+.iconic-pinterest-circled:before { content: '\e818'; } /* '' */
+.iconic-pinterest-squared:before { content: '\e819'; } /* '' */
+.iconic-tumblr-squared:before { content: '\e810'; } /* '' */
+.iconic-twitter-squared:before { content: '\e811'; } /* '' */
+.iconic-twitter:before { content: '\e812'; } /* '' */
+.iconic-youtube:before { content: '\e817'; } /* '' */
+.iconic-youtube-squared:before { content: '\e816'; } /* '' */
+.iconic-left-big:before { content: '\e80c'; } /* '' */
