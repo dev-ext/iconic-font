@@ -1,10 +1,11 @@
 
 .iconic-search:before { content: '\e808'; } /* '' */
-.iconic-dot-2:before { content: '\e825'; } /* '' */
+.iconic-ok-circled:before { content: '\e827'; } /* '' */
 .iconic-mail-alt:before { content: '\e806'; } /* '' */
 .iconic-users:before { content: '\e820'; } /* '' */
 .iconic-camera:before { content: '\e81f'; } /* '' */
 .iconic-ok:before { content: '\e809'; } /* '' */
+.iconic-ok-squared:before { content: '\e824'; } /* '' */
 .iconic-cancel:before { content: '\e80a'; } /* '' */
 .iconic-attach:before { content: '\e801'; } /* '' */
 .iconic-tag:before { content: '\e80b'; } /* '' */
@@ -17,8 +18,8 @@
 .iconic-angle-double-left:before { content: '\e804'; } /* '' */
 .iconic-angle-double-right:before { content: '\e805'; } /* '' */
 .iconic-down-big:before { content: '\e80f'; } /* '' */
+.iconic-left-big:before { content: '\e80c'; } /* '' */
 .iconic-mail:before { content: '\e807'; } /* '' */
-.iconic-right-big:before { content: '\e80d'; } /* '' */
 .iconic-up-big:before { content: '\e80e'; } /* '' */
 .iconic-credit-card:before { content: '\e821'; } /* '' */
 .iconic-facebook:before { content: '\e815'; } /* '' */
@@ -35,4 +36,7 @@
 .iconic-twitter:before { content: '\e812'; } /* '' */
 .iconic-youtube:before { content: '\e817'; } /* '' */
 .iconic-youtube-squared:before { content: '\e816'; } /* '' */
-.iconic-left-big:before { content: '\e80c'; } /* '' */
+.iconic-check-1:before { content: '\e828'; } /* '' */
+.iconic-dot-2:before { content: '\e825'; } /* '' */
+.iconic-check:before { content: '\e826'; } /* '' */
+.iconic-right-big:before { content: '\e80d'; } /* '' */
